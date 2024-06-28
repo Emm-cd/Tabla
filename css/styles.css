@@ -1,0 +1,34 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+table{
+    border: 3px solid crimson;
+    width: 80%;
+    border-spacing: 0px;
+}
+thead tr{
+    background-color: crimson;
+    color:white;
+}
+td{
+    padding: 10px;
+    text-align: center;
+    border: 1px solid crimson;
+}
+
+tr:nth-child(odd){ /*even*/
+    background-color: rgb(255, 116, 116);
+}
+
+.descripcion{
+    width: 40px;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
